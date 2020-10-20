@@ -1,0 +1,40 @@
+{
+  "name": "react17webpack5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "cross-env APP_ENV=k8s node ./scripts/build.js",
+    "start": "cross-env APP_ENV=k8s node ./scripts/start.js",
+    "start:debugger": "node --inspect-brk ./scripts/start.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pigongting/react17webpack5.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pigongting/react17webpack5/issues"
+  },
+  "homepage": "https://github.com/pigongting/react17webpack5#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/preset-react": "^7.12.1",
+    "address": "^1.1.2",
+    "babel-loader": "^8.1.0",
+    "cross-env": "^7.0.2",
+    "webpack": "^5.1.3",
+    "webpack-cli": "^4.0.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "@ice/stark": "^1.5.6",
+    "@ice/stark-app": "^1.2.0",
+    "react": "^17.0.0-rc.3",
+    "react-dom": "^17.0.0-rc.3"
+  }
+}
